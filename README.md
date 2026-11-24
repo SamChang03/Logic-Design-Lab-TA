@@ -1,8 +1,11 @@
 # Logic Design Lab — TA Reference Designs
 
-Reference solutions I wrote as a **teaching assistant** for **EE223002 Logic Design Lab** (National Tsing Hua University, instructor Prof. Yuan-Hao Huang) in **Spring 2025** and **Spring 2026**. All designs target the Digilent **Basys 3** FPGA board (Artix-7) in Xilinx Vivado.
+Reference solutions I wrote as a **teaching assistant** for **EE223002 Logic Design Lab** at National Tsing Hua University (Spring 2025 and Spring 2026). All designs target the Digilent **Basys 3** FPGA board (Artix-7) in Xilinx Vivado.
 
 Only labs I actually implemented are included. Quizzes, course handouts, student submissions, and Vivado project and build files are not included.
+
+- **Instructors:** Prof. Hsi-Pin Ma (馬席彬), 2025 · Prof. Yuan-Hao Huang (黃元豪), 2026
+- **Author (TA):** Yu-Shuo Chang (張育碩)
 
 > My own student version of this course (Spring 2023, plain Verilog) is in [Logic-Design-Lab](https://github.com/SamChang03/Logic-Design-Lab).
 
@@ -27,7 +30,7 @@ All 2026 `.sv` files include `head.sv` (guarded with `` `ifndef HEAD_SV ``), so 
 
 ---
 
-## 2025 (Verilog)
+## 2025 (Verilog) — Prof. Hsi-Pin Ma
 
 Each experiment folder has `rtl/`, `tb/` (testbench), and `constraint/` (`.xdc`).
 
@@ -39,7 +42,7 @@ Each experiment folder has `rtl/`, `tb/` (testbench), and `constraint/` (`.xdc`)
 | **Lab04** Counters II | `Lab04_1` binary down counter · `Lab04_2` down counter on the 7-segment display · `Lab04_3` single-digit BCD down counter · `Lab04_4` two-digit BCD up counter |
 | **Lab05** FSM: timer and stopwatch | `Lab05_1` 50-second timer with start/pause FSM · `Lab05_2` MM:SS stopwatch with lap · `Lab05_3` settable MM:SS countdown timer (schematic in `schematic.pdf`) |
 
-## 2026 (SystemVerilog)
+## 2026 (SystemVerilog) — Prof. Yuan-Hao Huang
 
 The 2026 syllabus was reorganized: Lab03 now covers both counters and shifters, and the timer/stopwatch, speaker, and keyboard labs moved earlier. Each experiment folder has `hdl/` and `xdc/`.
 
@@ -59,7 +62,3 @@ The 2026 syllabus was reorganized: Lab03 now covers both counters and shifters, 
 - Verilog-2001
 - SystemVerilog (IEEE 1800)
 - Digilent Basys 3 (XC7A35T)
-
-## Author
-
-Yu-Shuo Chang (張育碩), TA for EE223002, NTHU EE
