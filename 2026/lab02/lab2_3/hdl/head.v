@@ -1,0 +1,17 @@
+`define SSD_FAULT   8'b0000_0000
+`define SSD_ZERO    8'b0000_0011
+`define SSD_ONE     8'b1001_1111 
+`define SSD_TWO     8'b0010_0101 
+`define SSD_THREE   8'b0000_1101 
+`define SSD_FOUR    8'b1001_1001 
+`define SSD_FIVE    8'b0100_1001 
+`define SSD_SIX     8'b0100_0001 
+`define SSD_SEVEN   8'b0001_1111 
+`define SSD_EIGHT   8'b0000_0001 
+`define SSD_NINE    8'b0000_1001 
+`define SSD_A       8'b0001_0001 
+`define SSD_B       8'b1100_0001 
+`define SSD_C       8'b0110_0011 
+`define SSD_D       8'b1000_0101 
+`define SSD_E       8'b0110_0001 
+`define SSD_F       8'b0111_0001 
